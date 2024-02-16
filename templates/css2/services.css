@@ -1,0 +1,231 @@
+/*Services css font-family (stack):
+"Fredoka One" */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  
+  .about-hero {
+      height: 50vh;
+      width: 100%;
+      background-image: url(../../image/breadcurmb_c06a84d1-4774-4940-8d77-902abccef45d\ \(1\).jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px 70px;
+      background-color: #f5f8fe;
+    }
+    
+    .about-hero-title {
+      width: 20%;
+    }
+
+    .about-hero-title h1{
+      font-size: 2.6rem;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .home-to-ab {
+      
+      padding: 10px 10px;
+      background: #f3274c;
+      border-radius: 10px;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    .Parties{
+      width: 100%;
+      padding: 80px 0px;
+      display:flex;
+      justify-content: center;
+      align-items:center;
+
+    }
+    .parties_cord{
+      height:600px;
+      width: 47%;
+      position: relative;
+
+    }
+    .parties_cord img{
+      height:100%;
+      width: 100%;
+
+    }
+    .parties_content{
+      height:550px;
+      width: 47%;
+      padding: 40px 20px;
+     
+      
+    }
+    .parties_cord_img{
+      height: 500px;
+      width: 370px;
+      position: absolute;
+      left: 0%;
+      top: 0%;
+      
+     
+    }
+
+    .parties_cord_img2{
+      height: 300px;
+      width: 250px;
+      position: absolute;
+      left: 60%;
+      top: 30%;
+    }
+    .parties_cord_img2 img{
+      height: 100%;
+      width: 100%;
+      
+    }
+    .parties_content h2{
+      height: 150px;
+      font-size: 3.2rem;
+      letter-spacing: 2.3px;
+      line-height: 40px;
+    }
+    .parties_content p{
+      height: 140px;
+      font-size: 1.2rem;
+      letter-spacing: 1.2px;
+      line-height: 30px;
+      color: dimgray;
+    }
+
+    .parties_content h4{
+    
+      font-size: 1.1rem;
+      letter-spacing: 1.1px;
+      line-height: 35px;
+      color: dimgray;
+    }
+    .table{
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+    }
+    .table-text{
+      padding: 60px 0px;
+      width: 23%;
+      text-align: center;
+      transition:.6s;
+    }
+    .table-text:hover{
+      transform: translateY(-20px);
+      box-shadow: 0px 0px 20px 6px #000
+    }
+    .table-text span{
+      font-size: 1.3rem;
+      color: dimgray;
+
+      
+    }
+    .table-text h2{
+      font-size: 7.1rem;
+      color: #f3274c;
+      
+      
+    }
+
+    .form-set{
+      height: 500px;
+      width: 100%;
+      background-image: url(../../image/reserve-a-table.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+   
+    
+    .gallery-inner{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      padding: 50px 0px;
+    }
+
+    .gallery-cord{
+      height: 300px;
+      width: 30%;
+      border-radius:30px;
+      position: relative;
+      overflow: hidden;
+
+    }
+    .gallery-cord img{
+      height:100%;
+      width: 100%;
+      border-radius:30px;
+     
+
+    }
+    .gallery-cord::before{
+      content: "";
+      height: 4px;
+      width: 80px;
+      background-color:#fff;
+      position: absolute;
+      top: 50%;
+      left: 41%;
+      transform: translateX(340%);
+      transition: all .8s cubic-bezier(.2,1,.22,1);
+     
+    }
+    .gallery-cord:hover::before{
+      transform: translateX(0%);
+    }
+
+
+    .gallery-cord::after{
+      content: "";
+      height: 80px;
+      width: 4px;
+      background-color:#fff;
+      position: absolute;
+      top: 39%;
+      left: 50%;
+      transform: translateY(243%);
+      transition: all .8s cubic-bezier(.2,1,.22,1);
+  }
+  .gallery-cord:hover::after{
+    transform: translateY(0%);
+  }
+  .gallery-cord .over{
+    height: 100%;
+    width: 100%;
+    border-radius:30px;
+    position: absolute;
+    background-color: #f3274c;
+    z-index: 1000;
+    top: 0%;
+    left: 0%;
+    opacity: .25;
+    display: none;
+
+  }
+
+  .gallery-cord:hover .over{
+
+    display: block;
+  }
+     
+    

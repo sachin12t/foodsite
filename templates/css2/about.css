@@ -1,0 +1,427 @@
+/* About us css */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  
+}
+
+
+.about-hero {
+    height: 50vh;
+    width: 100%;
+    background-image: url(../../image/breadcurmb_c06a84d1-4774-4940-8d77-902abccef45d\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+    background-color: #f5f8fe;
+  }
+  
+  .about-hero-title {
+    width: 20%;
+  }
+  
+  .about-hero-title h1{
+    font-size: 2.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .home-to-ab {
+     
+    padding: 15px 20px;
+    background: #f3274c;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  
+.about-food {
+  height: auto;
+  width: 100%;
+  padding: 80px 80px;
+}
+
+.food-about {
+  display: flex;
+}
+
+.food-details {
+  height: auto;
+  width: 50%;
+}
+.food-details h2 {
+  font-size: 4rem;
+  line-height: 60px;
+}
+.food-details h4 {
+  color: #555555;
+  font-size: 20px;
+  color: #f3274c;
+}
+.food-details p {
+  color: #555555;
+  font-weight: 600;
+  font-size: 20px;
+}
+.food-details .para {
+  transform: translate(80px, -60px);
+}
+.food-details h3 {
+  transform: translate(80px, -60px);
+  font-size: 25px;
+}
+.food-details img {
+  margin-top: 30px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.food-cord-body {
+  display: flex;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+  margin-top: 50px;
+}
+.food-cord-body .food-cord {
+  height: 480px;
+  width: 32%;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.food-cord-body .food-cord img {
+  height: 100%;
+  width: 100%;
+}
+.food-cord-body .food-cord .cord-inner-part {
+  height: 430px;
+  width: 90%;
+  border: 3px solid #ffd40d;
+  border-radius: 20px;
+  position: absolute;
+  top: 3%;
+  left: 5%;
+}
+.food-cord-body .food-cord .cord-inner-part .cord-btn {
+  padding: 10px 0px;
+  width: 340px;
+  background-color: #ffd40d;
+  border-radius: 30px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 90%;
+  left: 0%;
+  font-size: 30px;
+}
+.food-cord-body .food-cord .ovrlay {
+  padding: 100px 50px;
+  text-align: center;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  background-color: #f3274c;
+  opacity: 0;
+  transform: scaleX(0.4);
+  transform-origin: top;
+  transition: 0.3s;
+}
+.food-cord-body .food-cord .ovrlay:hover {
+  opacity: 1;
+  transform: scaleX(1);
+}
+.food-cord-body .food-cord .ovrlay .overlay-btn {
+  width: 180px;
+  padding: 15px 0px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-left: 45px;
+}
+.food-cord-body .food-cord .ovrlay .overlay-btn a {
+  color: #000;
+}
+.food-cord-body .food-cord .ovrlay .overlay-btn a:hover {
+  text-decoration: underline;
+}
+.food-cord-body .ovrlay:hover .contect {
+  opacity: 1;
+}
+.food-cord-body .cord-down {
+  margin-top: 110px;
+}
+
+/* section sponsor */
+.sponsor{
+  width: 100%;
+ 
+}
+.sponsor h2{
+  height: 60px;
+  text-align: center;
+  font-family: serif;
+  font-weight: bolder;
+}
+.sponsor-cord-outer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 40px 50px;
+}
+.sponsor-cord-outer .cord{
+  width: 10%;
+  height: 100px;
+  transition: .5s;
+}
+.sponsor-cord-outer .cord:hover{
+  box-shadow: 0px 0px 10px 5px #555555;
+  transform: translateY(-20px);
+}
+.sponsor-cord-outer .cord img{
+  width: 100%;
+  height: 100%;
+}
+
+.easy-order{
+  width: 100%;
+  padding: 30px 0px;
+  
+}
+.how-to-work{
+  width: 75%;
+  height: 500px;
+  border-radius: 0px 180px 180px 0px;
+  position: relative;
+}
+.how-to-work img{
+  height: 100%;
+  width: 100%;
+  border-radius: 0px 250px 250px 0px;
+}
+.easy-order-video{
+  overflow: hidden;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  background-color: #555555;
+}
+.easy-order-video img{
+  height: 100%;
+  width: 100%;
+}
+.how-to-work-content{
+  
+  height: 380px;
+  width: 38rem;
+  position: absolute;
+  top: 10%;
+  left: 8%;
+}
+.easy-order-title{
+  height: 6rem;
+  color: #fff;
+}
+.easy-order-title h3{
+  font-size: 2.3rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 2px;
+}
+.easy-order-title p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.easy-cord-outer{
+  display: flex;
+  gap: 15px;
+
+
+}
+.easy-order-cord{
+  height: 15rem;
+  width: 20rem;
+  color: aliceblue;
+}
+.easy-order-cord img{
+  height: 6rem;
+  width: 6rem;
+}
+.easy-order-cord h4{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.4rem;
+  line-height: 40px;
+}
+.easy-order-cord p{
+  font-size: .8rem;
+  line-height: 20px;
+  letter-spacing: 1px;
+ 
+}
+
+.restaurant-history{
+  width: 100%;
+  padding: 40px 70px;
+}
+.heading {
+  position: relative;
+  text-align: center;
+  font-size: 55px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.heading::after {
+  content: "";
+  height: 10px;
+  width: 180px;
+  background-color: #ffd40d;
+  position: absolute;
+  top: 100%;
+  left: 42%;
+}
+.restaurant-inner{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.restaurant-cord{
+  width: 49%;
+  height: 170px;
+  position: relative;
+  display: flex;
+}
+.restaurant-cord .image-box{
+    width: 50%;
+    height: 170px;
+    background-color: #ad6673;
+    border-radius: 50px;
+    overflow: hidden;
+   
+}
+.year-history{
+  padding: 30px 20px;
+  position: absolute;
+  border-radius: 50%;
+  left: 40%;
+  top: 20%;
+  background-color: #f3274c;
+  color: #fff;
+}
+.image-box img{
+  height: 100%;
+  width: 100%;
+}
+.restaurant-cord .content-box{
+  width: 50%;
+  height: 170px;
+  padding: 20px 0px 0px 50px;
+}
+.content-box h3{
+  font-size: 1.5rem;
+  height: 30px;
+
+}
+.content-box p{
+  color: #555555;
+  font-size: 1.1rem;
+  line-height: 30px;
+}
+.best-services{
+  width: 100%;
+  height: auto;
+  padding: 100px 80px;
+
+}
+.best-services-header{
+  width: 100%;
+  
+  display: flex;
+  
+  justify-content: space-between;
+}
+
+.best-services-header h3{
+  width: 40%;
+  font-size: 3rem;
+}
+.best-services-header h3::first-line{
+  font-size: 1.3rem;
+  color: #f3274c;
+  
+}
+.best-services-header p{
+  width: 35%;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+.best-services-inner{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+.services-cord{
+  min-height: 300px;
+  width: 22%;
+  transition: 1s;
+
+ 
+}
+
+.services-cord:hover{
+ 
+  transform: translateY(-10px);
+ 
+}
+.services-cord .services-icon{
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+  
+}
+.services-icon img{
+  width: 60%;
+  height: 100%;
+  border-radius: 40%;
+}
+.services-cord:hover .services-icon  {
+  transform: rotate(360deg);
+}
+
+.services-contents{
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  
+  padding: 0px 10px;
+}
+.services-contents h3{
+  font-size: 1.1rem;
+  color: #555555;
+  line-height: 30px;
+}
+.services-contents h3::first-line{
+  font-size: 2rem;
+  color: #000;
+  line-height: 38px;
+}

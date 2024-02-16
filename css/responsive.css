@@ -1,0 +1,110 @@
+/*Responsive css start */
+/*   */
+
+/* top header  */
+@media screen and  (max-width:1252px ){
+   #header .navbar{
+      display: none;
+   }
+   #header .bars{
+      display: block;
+   }
+
+   .dishe-container{
+      flex-wrap: wrap;
+      
+   }
+   .dishe-cord{
+      width: 60%;
+    
+      
+   }
+   
+
+}
+
+@media screen and (max-width:1100px){
+   .deshe-cord{
+      border: 7px solid red;
+      
+   }
+   .news-cord{
+      width: 50%;
+    
+     
+   }
+}
+
+
+@media screen and  (max-width:768px ){
+ html{
+   margin: 0%;
+   padding: 0%;
+ }
+ 
+   .top-header{
+    display: none;
+   }
+  #header .navbar{
+    display: none;
+   }
+
+   
+   .Featured-Dishes .dishe-container{
+      flex-wrap: wrap;
+      width: 100%;
+   }
+   .dishe-container .dishe-cord{
+      width: 100%;
+   }
+   .header-btn{
+      width: 100%;
+   }
+   .manage-section{
+      display: flex;
+      flex-direction: column;
+   }
+   .manage-img{
+      width: 50%;
+   }
+   .manage-img img{
+      width: 80%;
+      margin-top: 190px;
+   }
+
+   .our-expert{
+      padding: 30px 10px;
+   }
+   .our-expert-body{
+      flex-wrap: wrap;
+      row-gap: 150px;
+      padding:100px 0px;
+    
+      
+   }
+   .our-expert-cord{
+      width: 60%;
+      column-gap: 110px;
+   }
+   .Steaks-outer{
+      flex-wrap: wrap;
+      row-gap: 50px;
+   }
+   .Steaks-outer .Steaks-cord{
+      width: 100%;
+      
+   }
+   .feadback-cord:first-child{
+      font-size: 15px;
+   }
+   
+   .hidden{
+      width: 500px;
+   }
+   .food-cord-body{
+      flex-wrap: wrap;
+   }
+   .food-cord-body .food-cord {
+      width: 100%;
+   }
+}

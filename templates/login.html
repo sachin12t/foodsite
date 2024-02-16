@@ -1,0 +1,131 @@
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width,initial-sacle=1.0"> 
+		<style>
+			*{
+				margin:0;
+				padding:0;
+				box-sizing:border-box;
+			}
+			body{
+				display:flex;
+				justify-content:center;
+				align-items:center;
+				background:rgba(0,0,0,0.5);
+			}
+			.container{
+				min-height:400px;
+				width:70%;
+				flex-wrap:wrap;
+				display:flex;
+				justify-content:center;
+				align-items:center;
+				border-radius:20px;
+				overflow:hidden;
+				box-shadow:10px 13px 20px #000;
+				transition:.5s;
+			}
+			.container:hover{
+				transform:translateY(-20px);
+			}
+			
+			
+			.inner{
+				height:430px;
+				width:50%;
+				
+				
+				
+				
+				
+			}
+			.inner img{
+				height:100%;
+				width:100%;
+			}
+			h1{
+				text-align:center;
+				font-size:42px;
+				color:#fff;
+			}
+			.inner1{
+				padding:60px 60px;
+				background:linear-gradient(40deg, #f0f ,#0ff);
+				
+			}
+			input{
+				height:40px;
+				width:100%;
+				margin-top:30px;
+				padding:0px 30px;
+				border-radius:10px;
+				border:none;
+				color:red;
+				
+			}
+			.btn{
+				height:40px;
+				width:100%;
+				margin-top:30px;
+				background:#0ff;
+				border:none;
+				border-radius:10px;
+				
+				font-size:20px;	
+				color:#fff;	
+			}
+				.btn:hover{
+				background:#f00;
+				}
+				a{
+					padding: 15px 50px;
+					color: #000;
+					background-color: aqua;
+					text-decoration: none;
+					position: absolute;
+					top: 89%;
+					left: 80%;
+					border-radius: 10px;
+					box-shadow: 2px 6px 32px #000;
+
+				}
+				a:hover{
+					background-color: aquamarine;
+					box-shadow: 2px 6px 2px #000;
+
+				}
+			@media screen and (max-width:752px){
+			
+				
+				.inner{
+					width:100%;
+				
+				}
+				.container{
+					width:95%;
+				
+				}
+			}
+			
+		</style>
+	</head>
+	<body>
+		
+		<div class="container">
+		
+		<div class="inner">
+			<img src="../image/news-img3.PNG ">
+		</div>
+		<div class="inner inner1">
+			<h1>Login</h1>
+				<form method="GET">
+					<input type="email" placeholder="Email.." name="email">
+					<input type="password" placeholder="Enter password.." name="password">
+					<button class="btn">Log In</button>
+				</form>		
+		</div>
+		
+		</div>
+		<a href="../index.html">Back home</a>
+	</body>
+</html>                                                                                                     
